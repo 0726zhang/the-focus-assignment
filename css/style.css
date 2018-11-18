@@ -1,4 +1,13 @@
 html {
    background-image: url('../img/large-banner-image.png');
    background-repeat: no-repeat;
+
+}
+.header h1:nth-child(1){
+   position: absolute;
+   top: 500px;
+}
+.header p:nth-child(2){
+   position: absolute;
+   top: 600px;
 }
