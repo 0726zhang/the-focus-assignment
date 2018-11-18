@@ -1,3 +1,6 @@
-div{
-   background-image:url('../img/large-banner-image.png');
+html{
+   background-image: url(..img/large-banner-image.png);
+   background-repeat: no-repeat;
+   background-position: top;
+   background-attachment: fixed;
 }
