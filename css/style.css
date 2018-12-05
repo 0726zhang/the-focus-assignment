@@ -1,45 +1,60 @@
 @font-face {
-   font-family:'Pacifico-Regular';
-   src:url(`fonts/Q_Z9mv4hySLTMoMjnk_rCXYhjbSpvc47ee6xR_80Hnw.woff2`)format('woff2');
-   font-weight:60;
-   font-style:normal;
-}
-@font-face {
-   font-family:'Raleway-Rugular';
-   src:url(`fonts/QAUlVt1jXOgQavlW5wEfxQLUuEpTyoUstqEm5AMlJo4.woff2`)format('woff2');
-   font-weight:24;
-   font-style:normal;
-}
-@font-face {
-   font-family:'Raleway-Light';
-   src:url(`fonts/-_Ctzj9b56b8RgXW8FAriQzyDMXhdD8sAj6OAJTFsBI.woff2`)format('woff2');
-   font-weight:36;
-   font-style:normal;
-}
-@font-face {
-   font-family:'Raleway-SemiBold';
-   src: url(`fonts/xkvoNo9fC8O2RDydKj12bwzyDMXhdD8sAj6OAJTFsBI.woff2`)format('woff2');
-   font-weight:22;
+   font-family: Pacifico-Regular, sans-serif;
+   src: url('fonts/Q_Z9mv4hySLTMoMjnk_rCXYhjbSpvc47ee6xR_80Hnw.woff2') format('woff2');
+   font-weight: 400;
    font-style: normal;
 }
+@font-face {
+   font-family: Raleway-Rugular;
+   src: url('fonts/QAUlVt1jXOgQavlW5wEfxQLUuEpTyoUstqEm5AMlJo4.woff2') format('woff2');
+   font-weight: 400;
+   font-style: normal;
+}
+@font-face {
+   font-family: Raleway-Light;
+   src: url('fonts/-_Ctzj9b56b8RgXW8FAriQzyDMXhdD8sAj6OAJTFsBI.woff2') format('woff2');
+   font-weight: 300;
+   font-style: normal;
+}
+@font-face {
+   font-family: Raleway-SemiBold;
+   src: url('fontsxkvoNo9fC8O2RDydKj12bwzyDMXhdD8sAj6OAJTFsBI.woff2') format('woff2');
+   font-weight: 600;
+   font-style: normal;
+}
+
 html {
    background-image: url('../img/large-banner-image.png');
    background-repeat: no-repeat;
+   width: 1600px;
    height: 700px;
 }
-.img-iphone{
+
+.iphone {
    position: absolute;
-   margin-top: 400px;
-   margin-left: 625px;
+   left: 100px;
 }
-.header h1:nth-child(1){
-   font-family: 'Pacifico-Regular';
+
+.header h1:nth-child(1) {
+   font-family: Pacifico-Regular, sans-serif;
+   font-size: 60px;
    text-align: center;
    margin-top: 120px;
 }
-.header p:nth-child(2){
-   font-family:'Raleway-Light';
-   position: absolute;
-   margin-top: 240px;
-   margin-left: 480px;
+
+.header p:nth-child(2) {
+   font-family: Raleway-Light, sans-serif;
+   font-size: 36px;
+   text-align: center;
+   line-height: 80px;
+}
+
+.one {
+   width: 320px;
+   margin-left: 270px;
+}
+
+h2 {
+   font-family: Raleway-Light, sans-serif;
+   font-size: 28px;
 }
