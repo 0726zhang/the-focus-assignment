@@ -58,6 +58,11 @@ html {
    margin-left: 770px;
 }
 
+.phone {
+   position: relative;
+   margin: auto;
+}
+
 .iphone {
    position: absolute;
    top: 400px;
