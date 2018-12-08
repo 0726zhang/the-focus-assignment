@@ -53,9 +53,15 @@ html {
    line-height: 150px;
 }
 
+.down {
+   top: 320px;
+   margin-left: 770px;
+}
+
 .iphone {
    position: absolute;
-   left: 100px;
+   top: 400px;
+   left: 570px;
 }
 
 .one {
