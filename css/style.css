@@ -105,6 +105,7 @@ html {
 }
 
 .four-parts p {
+   position: relative;
    font-size: 16px;
    padding-top: 18px;
    line-height: 25px;
@@ -143,6 +144,7 @@ html {
 }
 
 .left {
+   position: relative;
    margin-top: 210px;
    margin-left: 210px;
    width: 560px;
@@ -151,4 +153,37 @@ html {
 
 .left h2 {
    padding-bottom: 5px;
+}
+
+.apple {
+   margin-top: 28px;
+   margin-left: 210px;
+   padding-right: 15px;
+}
+
+.android {
+   padding-right: 10px;
+}
+
+.cursor-left {
+   top: 1460px;
+   margin-left: -40px;
+}
+
+.video-image {
+   position: absolute;
+   top: 1255px;
+   left: 90px;
+   width: 500px;
+   height: 307px;
+}
+
+.play {
+   position: relative;
+   left: 910px;
+}
+
+.video-play-bar {
+   position: relative;
+   left: 910px;
 }
