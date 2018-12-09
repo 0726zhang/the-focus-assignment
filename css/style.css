@@ -38,7 +38,6 @@ html {
 
 .header h1:nth-child(1) {
    font-family: Pacifico-Regular, sans-serif;
-   font-weight: 400;
    font-size: 60px;
    text-align: center;
    top: 120px;
@@ -100,12 +99,34 @@ html {
    left: 715px;
 }
 
-.one {
-   width: 320px;
-   margin-left: 270px;
+.part-one {
+   top: 200px;
 }
 
-h2 {
-   font-family: Raleway-Light, sans-serif;
-   font-size: 28px;
+.one {
+   margin-left: 270px;
+   width: 320px;
+   height: 120px;
+   line-height: 30px;
+}
+
+.two {
+   margin-left: 1030px;
+   width: 320px;
+   height: 120px;
+   line-height: 30px;
+}
+
+.three {
+   margin-left: 270px;
+   width: 320px;
+   height: 120px;
+   line-height: 30px;
+}
+
+.four {
+   margin-left: 1030px;
+   width: 320px;
+   height: 120px;
+   line-height: 30px;
 }
