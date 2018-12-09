@@ -141,3 +141,14 @@ html {
    height: 120px;
    line-height: 28px;
 }
+
+.left {
+   margin-top: 210px;
+   margin-left: 210px;
+   width: 560px;
+   height: 144px;
+}
+
+.left h2 {
+   padding-bottom: 5px;
+}
