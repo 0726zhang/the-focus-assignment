@@ -173,7 +173,7 @@ html {
 .video-image {
    position: absolute;
    top: 1255px;
-   left: 90px;
+   left: 890px;
    width: 500px;
    height: 307px;
 }
@@ -186,4 +186,11 @@ html {
 .video-play-bar {
    position: relative;
    left: 910px;
+}
+
+.an-app {
+   font-family: Raleway-Rugular, sans-serif;
+   font-size: 24px;
+   text-align: center;
+   margin-top: 138px;
 }
