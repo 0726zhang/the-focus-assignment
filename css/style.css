@@ -5,19 +5,19 @@
    font-style: normal;
 }
 @font-face {
-   font-family: Raleway-Rugular;
+   font-family: Raleway-Rugular, sans-serif;
    src: url('fonts/QAUlVt1jXOgQavlW5wEfxQLUuEpTyoUstqEm5AMlJo4.woff2') format('woff2');
    font-weight: 400;
    font-style: normal;
 }
 @font-face {
-   font-family: Raleway-Light;
+   font-family: Raleway-Light, sans-serif;
    src: url('fonts/-_Ctzj9b56b8RgXW8FAriQzyDMXhdD8sAj6OAJTFsBI.woff2') format('woff2');
    font-weight: 300;
    font-style: normal;
 }
 @font-face {
-   font-family: Raleway-SemiBold;
+   font-family: Raleway-SemiBold, sans-serif;
    src: url('fontsxkvoNo9fC8O2RDydKj12bwzyDMXhdD8sAj6OAJTFsBI.woff2') format('woff2');
    font-weight: 600;
    font-style: normal;
@@ -99,18 +99,27 @@ html {
    left: 715px;
 }
 
-.part-one {
-   top: 200px;
+.four-parts h2 {
+   font-family: Raleway-SemiBold, sans-serif;
+   font-size: 22px;
+}
+
+.four-parts p {
+   font-size: 16px;
+   padding-top: 18px;
+   line-height: 25px;
 }
 
 .one {
-   margin-left: 270px;
+   margin-top: 300px;
+   margin-left: 271px;
    width: 320px;
    height: 120px;
-   line-height: 30px;
 }
 
 .two {
+   position: absolute;
+   margin-top: -130px;
    margin-left: 1030px;
    width: 320px;
    height: 120px;
@@ -118,6 +127,7 @@ html {
 }
 
 .three {
+   padding-top: 40px;
    margin-left: 270px;
    width: 320px;
    height: 120px;
@@ -125,8 +135,9 @@ html {
 }
 
 .four {
+   margin-top: -115px;
    margin-left: 1030px;
    width: 320px;
    height: 120px;
-   line-height: 30px;
+   line-height: 28px;
 }
