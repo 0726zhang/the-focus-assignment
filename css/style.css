@@ -58,15 +58,46 @@ html {
    margin-left: 770px;
 }
 
-.phone {
-   position: relative;
-   margin: auto;
-}
-
 .iphone {
    position: absolute;
    top: 400px;
    left: 570px;
+}
+
+.white-1 {
+   position: relative;
+   top: 260px;
+   left: 717px;
+}
+
+.white-2 {
+   position: relative;
+   top: 170px;
+   left: 815px;
+}
+
+.white-3 {
+   position: relative;
+   top: 470px;
+   left: 655px;
+}
+
+.black-dot {
+   position: relative;
+   top: 380px;
+   left: 759px;
+}
+
+.cursor {
+   position: relative;
+   top: 385px;
+   left: 734px;
+}
+
+.angled {
+   position: relative;
+   top: 481px;
+   left: 715px;
 }
 
 .one {
