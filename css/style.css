@@ -24,7 +24,7 @@
 }
 
 html {
-   background-image: url('../comps/focus.jpg');
+   background-image: url('../img/large-banner-image.png');
    background-repeat: no-repeat;
    width: 1600px;
    height: 700px;
@@ -249,8 +249,8 @@ html {
 }
 
 .bottom-image {
-   height: 20px;
-   margin-top: 40px;
+   height: 40px;
+   margin-top: 20px;
 }
 
 .bottom-image > div {
