@@ -113,14 +113,14 @@ html {
    line-height: 25px;
 }
 
-.one {
+.Great-Feature {
    margin-top: 300px;
    margin-left: 271px;
    width: 320px;
    height: 120px;
 }
 
-.two {
+.Great-Feature-Two {
    position: absolute;
    margin-top: -130px;
    margin-left: 1030px;
@@ -129,7 +129,7 @@ html {
    line-height: 30px;
 }
 
-.three {
+.nother-Great-Feature-Three {
    padding-top: 40px;
    margin-left: 270px;
    width: 320px;
@@ -137,7 +137,7 @@ html {
    line-height: 30px;
 }
 
-.four {
+.Another-Great-Feature-Four {
    margin-top: -115px;
    margin-left: 1030px;
    width: 320px;
@@ -145,7 +145,7 @@ html {
    line-height: 28px;
 }
 
-.left {
+.Get {
    position: relative;
    margin-top: 210px;
    margin-left: 210px;
@@ -153,7 +153,7 @@ html {
    height: 144px;
 }
 
-.left h2 {
+.Get h2 {
    padding-bottom: 5px;
 }
 
@@ -250,7 +250,18 @@ html {
 
 .bottom-image {
    display: flex;
-   flex-grow: 1;
    justify-content: center;
    margin-top: 30px;
+}
+
+.cursor-4 {
+   position: relative;
+   margin-top: -60px;
+   margin-left: 780px;
+}
+
+.last {
+   display: flex;
+   justify-content: center;
+   margin-top: 100px;
 }
