@@ -106,6 +106,8 @@ html {
 
 .four-parts p {
    position: relative;
+   font-family: Helvetica-Neue, sans-serif;
+   font-weight: 400;
    font-size: 16px;
    padding-top: 18px;
    line-height: 25px;
@@ -188,9 +190,60 @@ html {
    left: 910px;
 }
 
-.an-app {
+.an-app p {
    font-family: Raleway-Rugular, sans-serif;
    font-size: 24px;
    text-align: center;
    margin-top: 138px;
+   margin-left: -10px;
+}
+
+.an-app h2 {
+   font-family: Helvetica-Neue, sans-serif;
+   font-weight: 500;
+   font-size: 14px;
+   margin-top: 25px;
+   margin-left: 733px;
+}
+
+.an-app h3 {
+   font-family: Helvetica-Neue, sans-serif;
+   font-weight: 400;
+   font-size: 14px;
+   margin-left: 817px;
+   margin-top: -12px;
+}
+
+.people {
+   position: absolute;
+   margin-top: 55px;
+   width: 1600px;
+   height: 318px;
+}
+
+.active-person {
+   position: relative;
+   margin-top: 133px;
+   margin-left: 915px;
+}
+
+.cursor-3 {
+   position: relative;
+   margin-top: -20px;
+   margin-left: 925px;
+}
+
+.say h2 {
+   font-family: Raleway-SemiBold, sans-serif;
+   font-size: 24px;
+   margin-top: 200px;
+   margin-left: 680px;
+}
+
+.say p {
+   font-family: Helvetica-Neue, sans-serif;
+   font-weight: 400;
+   font-size: 16px;
+   margin-top: 22px;
+   margin-left: 555px;
 }
