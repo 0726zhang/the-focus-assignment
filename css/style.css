@@ -27,7 +27,7 @@ html {
    background-image: url('../comps/focus.jpg');
    background-repeat: no-repeat;
    width: 1600px;
-   height: 2494px;
+   height: 700px;
 }
 
 .focus {
@@ -211,7 +211,7 @@ html {
    font-weight: 400;
    font-size: 14px;
    margin-left: 817px;
-   margin-top: -12px;
+   margin-top: -15px;
 }
 
 .people {
@@ -249,9 +249,15 @@ html {
 }
 
 .bottom-image {
+   height: 20px;
+   margin-top: 40px;
+}
+
+.bottom-image > div {
+   margin: auto;
+   width: 260px;
    display: flex;
-   justify-content: center;
-   margin-top: 30px;
+   justify-content: space-between;
 }
 
 .cursor-4 {
@@ -260,8 +266,20 @@ html {
    margin-left: 780px;
 }
 
-.last {
+footer {
+   background-color: #e3e3e3;
+   height: 100px;
+   line-height: 100px;
+}
+
+footer > div {
+   margin: auto;
+   width: 540px;
    display: flex;
-   justify-content: center;
-   margin-top: 100px;
+   justify-content: space-between;
+}
+
+footer > div > a {
+   text-decoration: none;
+   color: #848484;
 }
