@@ -247,3 +247,10 @@ html {
    margin-top: 22px;
    margin-left: 555px;
 }
+
+.bottom-image {
+   display: flex;
+   flex-grow: 1;
+   justify-content: center;
+   margin-top: 30px;
+}
